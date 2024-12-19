@@ -1,4 +1,4 @@
-# TaskChuteCloud2 review viewer
+# TaskChute Cloud 2 review viewer
 
 [TaskChute Cloud 2](https://www.taskchute.cloud/) のエクスポートデータを使用して、TaskChute Cloud 1 にあったようなレビュー表示を行うプログラムです。  
 本家がいつまでたっても実装してくれないので作りました。
