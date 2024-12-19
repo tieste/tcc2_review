@@ -105,7 +105,7 @@
         // グラフに再設定
         Promise.resolve()
             .then(getOneDay.bind(null, targetDate.innerText))
-            .then(reDraw)
+            .then(redraw)
             .catch((error) => console.log(error.message));
     });
 
@@ -116,7 +116,7 @@
         // グラフに再設定
         Promise.resolve()
             .then(getOneDay.bind(null, targetDate.innerText))
-            .then(reDraw)
+            .then(redraw)
             .catch((error) => console.log(error.message));
     });
 
@@ -294,7 +294,7 @@
         });
     }
 
-    function reDraw(data) {
+    function redraw(data) {
         return new Promise((resolve, reject) => {
             const labels = data.map((value) => value.project);
             const datasets = data.map((value) => value.roundTime);
