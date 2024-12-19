@@ -182,7 +182,7 @@
         const fraction = tmp - integer;
         if (fraction < 0.25) {
             tmp = integer;
-        } else if (fraction > 0.25 && fraction < 0.75) {
+        } else if (fraction >= 0.25 && fraction < 0.75) {
             tmp = integer + 0.5;
         } else {
             tmp = integer + 1;
