@@ -2,6 +2,10 @@
 
 [TaskChute Cloud 2](https://www.taskchute.cloud/) のエクスポートデータを使用して、TaskChute Cloud 1 にあったようなレビュー表示を行うプログラムです。  
 
+# サンプル
+
+https://tieste.github.io/tcc2_review/index.html
+
 # 使い方
 
 TCC2からエクスポート機能を利用してログをCSV出力してください。  
